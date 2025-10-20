@@ -1,0 +1,27 @@
+{
+  "name": "healthcare-risk-scorer",
+  "version": "1.0.0",
+  "description": "Healthcare API risk assessment system with patient risk scoring",
+  "main": "src/healthcare-risk-scoring.js",
+  "scripts": {
+    "start": "node src/healthcare-risk-scoring.js",
+    "test": "node tests/test-scoring.js",
+    "dev": "node --watch src/healthcare-risk-scoring.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "healthcare",
+    "api",
+    "risk-assessment",
+    "patient-safety"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chixcs/healthcare-risk-scorer"
+  }
+}
